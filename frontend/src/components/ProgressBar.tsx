@@ -14,7 +14,7 @@ const ProgressBar = (props: LinearProgressProps): JSX.Element => {
     const timer = setInterval(() => {
       if (localProgress <= 100) {
         setProgress(localProgress);
-        localProgress += Math.floor(Math.random() * 30);
+        localProgress += Math.floor(Math.random() * 40);
       } else {
         setProgress(100);
         clearInterval(timer);

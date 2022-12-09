@@ -1,10 +1,8 @@
-import { Button } from "@mui/material";
-import { SplashScreen } from "../components";
+import { SplashScreen } from ".";
 
 const Home = (): JSX.Element => {
   return (
     <div>
-      <Button variant="contained">Test</Button>
       <SplashScreen />
     </div>
   );
